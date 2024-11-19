@@ -22,6 +22,7 @@ def visualize_matches(img1, img2, mkpts0, mkpts1, filename=None):
     
     if filename:
         plt.savefig(filename, bbox_inches='tight')
+   
     plt.show()
     plt.close()
 
